@@ -1,0 +1,30 @@
+{
+  "configs": [
+    "munit-sys-api.xml",
+    "munit-sys-api-suite.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:munit-sys-api:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.3.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedResources": [
+        "log4j2.xml",
+        "munit-sys-api.xml",
+        "log4j2-test.xml",
+        "munitsysapiFlowtest/assert_expression_payload.dwl",
+        "munitsysapiFlowtest/set-event_attributes.dwl",
+        "munitsysapiFlowtest/set-event_payload.dwl"
+      ],
+      "includeTestDependencies": "true",
+      "exportedPackages": []
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
